@@ -8,6 +8,6 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/ws.html');
 })
 
-app.listen(port, function () {
+app.listen(21560, function () {
   console.log('Example app listening on port ! '+port)
 })
